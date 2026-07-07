@@ -1,0 +1,38 @@
+html,
+body {
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 100%;
+
+
+
+}
+
+
+
+.main {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/60/a6/37/60a6370c7eb20418d83e930fd3dc19d7.gif");
+
+    background-size: cover;
+    filter: blur(8px);
+    background-position-y: 50%;
+    background-position-x: 50%;
+    
+
+}
+
+.player{
+background-color: rgb(134, 234, 217);
+position: absolute;
+transform: translate(-50%,-50%);
+left: 50;
+top: 50%;
+height: 300px;
+width: 400px;
+
+}
