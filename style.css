@@ -1,9 +1,9 @@
 html,
 body {
-     margin: 0;
-     padding: 0;
-     width: 100%;
-     height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 
 
 
@@ -16,23 +16,127 @@ body {
     padding: 0px;
     height: 100%;
     width: 100%;
-    background-image: url("https://i.pinimg.com/originals/60/a6/37/60a6370c7eb20418d83e930fd3dc19d7.gif");
+    background-image: url("https://cdn.dribbble.com/userupload/42375240/file/original-9c700ba9dfe270d8c57ceab56d78f303.gif");
 
     background-size: cover;
     filter: blur(8px);
     background-position-y: 50%;
     background-position-x: 50%;
-    
+
 
 }
 
-.player{
-background-color: rgb(134, 234, 217);
-position: absolute;
-transform: translate(-50%,-50%);
-left: 50;
-top: 50%;
-height: 300px;
-width: 400px;
+.player {
+    background-image: url("https://img1.picmix.com/output/stamp/normal/4/8/3/0/2290384_b036d.gif");
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+    box-shadow: 4px 10px 10px;
 
 }
+
+.row1 {
+    height: 40%;
+    width: 100%;
+    background-image: url("");
+    background-size: cover;
+    background-position-y: 35%;
+}
+
+#songTitle {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.row2 {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(0, 34, 203);
+
+}
+
+.play {
+    width: 100%;
+    height: 20%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+#pre{
+
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+
+#play {
+
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+#next {
+
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+
+.seek-bar {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.handle {
+    width: 80%;
+    height: 5px;
+    background: linear-gradient(to right, #f6ff00 0%, #ffffff 100%);
+    border-radius: 25px;
+
+}
+#fill {
+    height: 8px;
+    width: 1px;
+    border-radius: 25px;
+    background-color: rgb(229, 255, 0);
+    z-index: 999;
+    margin-top: -1.5px;
+    margin-left: -1.5px;
+
+}
+#currentTime {
+    width: 50%;
+    height: 100%;
+    margin-left: 35px;
+    margin-top: -25px;
+    color: rgb(255, 255, 255);
+
+}
+
+.mute {
+    height: 40%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+
