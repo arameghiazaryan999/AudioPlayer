@@ -27,7 +27,7 @@ body {
 }
 
 .player {
-    background-image: url("https://img1.picmix.com/output/stamp/normal/4/8/3/0/2290384_b036d.gif");
+    background-image: url("https://cdn.dribbble.com/userupload/21489447/file/original-ef5d6157220d29988842757b6f1c84f8.gif");
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
@@ -53,7 +53,7 @@ body {
     text-align: center;
     font-family: monospace;
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .row2 {
@@ -138,5 +138,42 @@ body {
     align-items: center;
     display: flex;
 }
+
+.muteButtons {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+#decrease {
+    height: 15px;
+    width: 15px;
+    background-size: cover;
+    margin: 5px;
+}
+#mute {
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    margin: 5px;
+}  
+
+#increase {
+    height: 15px;
+    width: 15px;
+    background-size: cover;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
 
 
