@@ -3,7 +3,7 @@ let data = {
         "Aram Asatryan Asemm Te Chasem",
         "Aram Asatryan Draxti Partez",
         "Artash Asatryan Miami",
-        "Artsakh is Armenia 333",
+        "Lyov 333 Feat",
         "Ashot Hovsepyan Kyanqi Karusel",
         "Inna Hot",    
         "Inna Sun is UP",
@@ -15,7 +15,7 @@ let data = {
         "music/Aram Asatryan Asemm Te Chasem.mp3",
         "music/Aram Asatryan Draxti Partez.mp3",
         "music/Artash Asatryan Miami.mp3",
-        "music/Artsakh is Armenia 333.mp3",
+        "music/Lyov 333 Feat.mp3",
         "music/Ashot Hovsepyan Kyanqi Karusel.mp3",
         "music/Inna Hot.mp3",    
         "music/Inna Sun is UP.mp3",
@@ -39,7 +39,63 @@ let data = {
           
 
     ],
+
+
+   
     
 
 
 }
+
+let song = new Audio()
+let currentSong = 0
+
+window.onload = function (){
+    playSong()
+}
+
+
+
+
+
+function playSong(){
+    song.src = data.song[currentSong]
+    let songTitle = document.getElementById("songTitle")
+    songTitle.textContrnt = data.title[currentSong]
+    let img = document.getElementById("row1")
+    img.style.backgroundImige = "url(" + data.poster[currentSong] +")"
+    
+    let main = document.getElementById("main")
+    main.style.backgroundImige = "url(" + data.poster[currentSong] +")"
+    song.play()
+
+   
+}
+
+
+function playOrPauseSong(){
+    let play = document.getElementById("play")
+
+    if(song.paused){
+
+        song.play()
+        play.src = "images/pause.png"
+    }else{
+        song.pause()
+        play.src = "images/play-button-arrowhead.png"
+
+
+    
+    }
+
+
+
+
+}
+
+
+
+
+
+
+    
